@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './App.scss';
+import students from '../helpers/data/studentsData';
 
 function App() {
   const [domWriting, setDomWriting] = useState('Nothing Here!');
@@ -34,5 +35,5 @@ function App() {
     </div>
   );
 }
-
+console.warn(students);
 export default App;
