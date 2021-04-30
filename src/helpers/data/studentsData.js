@@ -139,7 +139,18 @@ const students = [
     lastName: 'Crumbley',
     isDead: 'false',
   },
+  {
+    id: 23,
+    firstName: 'Ben',
+    lastName: 'Jarrett',
+    isDead: 'false',
+  },
 ];
+// Function to show all students that are not dead //
+const livingStudents = () => {
+  const livingStudentsArray = students.filter((obj) => obj.isDead === false);
+  return livingStudentsArray;
+};
 
 // console.warn(students.map.isDead === true);
-export default students;
+export default livingStudents;
