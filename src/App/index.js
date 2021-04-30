@@ -35,5 +35,6 @@ function App() {
     </div>
   );
 }
-console.warn(students);
+
+console.warn(students.map.isDead === true);
 export default App;

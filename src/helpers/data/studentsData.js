@@ -1,73 +1,145 @@
+// import React from 'react';
+
 const students = [
   {
-    name: 'Robert Cole'
+    id: 0,
+    firstName: 'Robert',
+    lastName: 'Cole',
+    isDead: 'false',
   },
   {
-    name: 'Sara Schoonover'
+    id: 1,
+    firstName: 'Sara',
+    lastName: 'Schoonover',
+    isDead: 'false',
   },
   {
-    name: 'Matthew Gonzales'
+    id: 2,
+    firstName: 'Matthew',
+    lastName: 'Gonzale',
+    isDead: 'false',
   },
   {
-    name: 'Hunter Juneau'
+    id: 3,
+    firstName: 'Hunter',
+    lastName: 'Juneau',
+    isDead: 'false',
   },
   {
-    name: 'Lindsey Satterfield'
+    id: 4,
+    firstName: 'Lindsey',
+    lastName: 'Satterfield',
+    isDead: 'false',
   },
   {
-    name: 'Jesse Robinson'
+    id: 5,
+    firstName: 'Jesse',
+    lastName: 'Robinson',
+    isDead: 'false',
   },
   {
-    name: 'John Maple'
+    id: 6,
+    firstName: 'John',
+    lastName: 'Maple',
+    isDead: 'false',
   },
   {
-    name: 'Martin Sisk'
+    id: 7,
+    firstName: 'Martin',
+    lastName: 'Sisk',
+    isDead: 'false',
   },
   {
-    name: 'Holly Parsons'
+    id: 8,
+    firstName: 'Holly',
+    lastName: 'Parsons',
+    isDead: 'false',
   },
   {
-    name: 'Dani Crosby'
+    id: 9,
+    firstName: 'Dani',
+    lastName: 'Crosby',
+    isDead: 'false',
   },
   {
-    name: 'Chie Stroud'
+    id: 10,
+    firstName: 'Chie',
+    lastName: 'Stroud',
+    isDead: 'false',
   },
   {
-    name: 'Tad Sekeres'
+    id: 11,
+    firstName: 'Tad',
+    lastName: 'Sekeres',
+    isDead: 'false',
   },
   {
-    name: 'Casey Walker'
+    id: 12,
+    firstName: 'Casey',
+    lastName: 'Walker',
+    isDead: 'false',
   },
   {
-    name: 'Gabby Tobermann'
+    id: 13,
+    firstName: 'Gabby',
+    lastName: 'Tobermann',
+    isDead: 'false',
   },
   {
-    name: 'Katy Fry'
+    id: 14,
+    firstName: 'Katy',
+    lastName: 'Fry',
+    isDead: 'false',
   },
   {
-    name: 'Nathan Keith'
+    id: 15,
+    firstName: 'Nathan',
+    lastName: 'Keith',
+    isDead: 'false',
   },
   {
-    name: 'Honey-Rae Swan'
+    id: 16,
+    firstName: 'Honey-Rae',
+    lastName: 'Swan',
+    isDead: 'false',
   },
   {
-    name: 'Jim Conner'
+    id: 17,
+    firstName: 'Jim',
+    lastName: 'Conner',
+    isDead: 'false',
   },
   {
-    name: 'Chris Meffley'
+    id: 18,
+    firstName: 'Chris',
+    lastName: 'Meffley',
+    isDead: 'false',
   },
   {
-    name: 'Juan Davila'
+    id: 19,
+    firstName: 'Juan',
+    lastName: 'Davila',
+    isDead: 'false',
   },
   {
-    name: 'Sean Rossetie'
+    id: 20,
+    firstName: 'Sean',
+    lastName: 'Rossetie',
+    isDead: 'false',
   },
   {
-    name: 'Ellie Walker'
+    id: 21,
+    firstName: 'Ellie',
+    lastName: 'Walker',
+    isDead: 'false',
   },
   {
-    name: 'Mitchell Crumbley'
+    id: 22,
+    firstName: 'Mitchell',
+    lastName: 'Crumbley',
+    isDead: 'false',
   },
 ];
 
-console.warn(students);
+// console.warn(students.map.isDead === true);
+export default students;
